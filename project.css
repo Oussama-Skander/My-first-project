@@ -1,10 +1,11 @@
 .text {
   width: 100;
-  font-size: 36.9999981px;
+  font-size: 48px;
 }
 	.button {
   border: none;
-  color: green;
+  color: #008B8B;
+  background-color:#F0FFF0;
   padding: 15px 32px;
   width: 40 ;
   height: 40;
@@ -18,21 +19,13 @@
   table-layout: fixed;
   border-collapse: collapse;
   }
-  .button1{
-    border: none;
-  color: green;
-  padding: 15px 32px;
-  width: 40 ;
-  height: 40;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  width: 16%;
-  table-layout: fixed;
-  border-collapse: collapse;
+  
+  body{
+  font-size: 1.5em;
+  color: #FE7F88;
+  background-color: transparent;
+  background-image: url("https://wallpapercave.com/wp/wp2921786.jpg");
   }
-
+  .corps{
+    text-align: center;
   }

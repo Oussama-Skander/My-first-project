@@ -37,3 +37,23 @@ function PosNig(){
     var y = -x;
     document.getElementById("result").value = y;
 }
+function cos(){
+    var x = document.getElementById("result").value;
+    var y = Math.cos(x);
+    document.getElementById("result").value = y;
+}
+function sin(){
+    var x = document.getElementById("result").value;
+    var y = Math.sin(x);
+    document.getElementById("result").value = y;
+}
+function tan(){
+    var x = document.getElementById("result").value;
+    var y = Math.tan(x);
+    document.getElementById("result").value = y;
+}
+function ma(){
+    var x = document.getElementById("result").value;
+    var y = 1 / x;
+    document.getElementById("result").value = y;
+}
