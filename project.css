@@ -18,3 +18,21 @@
   table-layout: fixed;
   border-collapse: collapse;
   }
+  .button1{
+    border: none;
+  color: green;
+  padding: 15px 32px;
+  width: 40 ;
+  height: 40;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 17%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  }
+
+  }
