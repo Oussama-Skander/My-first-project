@@ -57,3 +57,8 @@ function ma(){
     var y = 1 / x;
     document.getElementById("result").value = y;
 }
+function binaire(){
+    var x = document.getElementById("result").value;
+    var y = (x >>> 0).toString(2);
+    document.getElementById("result").value = y;
+}
